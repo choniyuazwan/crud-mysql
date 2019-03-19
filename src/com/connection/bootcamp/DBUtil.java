@@ -28,7 +28,6 @@ public class DBUtil {
                 siswa.setNoHp(rs.getString("no_hp"));
                 siswa.setKelas(rs.getString("kelas"));
                 listSiswa.add(siswa);
-//                System.out.println(String.format("%d. %s | %s | %s", id, nama, noHp, kelas));
             }
         } catch (Exception e) {
             e.printStackTrace();
